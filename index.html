@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <script src="./src/js/index.js" defer></script>
+    <title>One Piece - Supernovas</title>
+</head>
+
+<body>
+    <main class="characters">
+        <div id="fade"></div>
+        <div class="character">
+            <img class="image" src="./src/imgs/luffy_background_image.jpg" alt="character Monkey D. Luffy">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Monkey D. Luffy</h2>
+                <p class="description">Monkey D. Luffy, also known as "Straw Hat Luffy", is the founder and captain
+                    of
+                    the
+                    increasingly infamous and powerful Straw Hat Pirates, as well as the most powerful of its top
+                    fighters. He desires to find the legendary treasure left behind by the late Gol D. Roger and
+                    thereby
+                    become the Pirate King. Born in Foosha Village, Luffy is the son of Monkey D. Dragon, the leader
+                    of
+                    the Revolutionary Army, and the grandson of the Marine hero Monkey D. Garp, where their
+                    family carries the initial of D.
+                </p><br>
+                <p class="description">After leading the Raid on Onigashima and defeating Kaidou, his bounty was
+                    increased to 3,000,000,000 Belly, placing him as one of the members of the Four Emperors.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" src="./src/imgs/luffyAbility.png" alt="">
+                <p class="ability-description">The Gomu Gomu no Mi is a Paramecia-type Devil Fruit that grants
+                    the
+                    user's body the properties of rubber, effectively making them a Rubber Human. Originally,
+                    the
+                    fruit was called Hito Hito no Mi, Model: Nika and classified as a
+                    Mythical Zoan-type fruit that allows one to transform into the legendary "Sun God" Nika (and
+                    gain his rubbery attributes) <br><br> Before being renamed and reclassified by the World
+                    Government to
+                    hide the truth. In the present, only Imu and the Five Elders are known to know of the
+                    fruit's
+                    true nature, and its existence was never known to be recorded anywhere.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/kid_background_image.png" alt="character Eutass Kid">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Eutass Kid</h2>
+                <p class="description">Eustass "Captain" Kid is a notorious pirate from South Blue and the captain of
+                    the Kid Pirates. During Luffy's two years of training, Kid challenged one of the Four Emperors,
+                    Shanks, but lost one of his arms in the process. He attempted to form an alliance with the
+                    On Air
+                    Pirates and Hawkins
+                    Pirates to challenge the Red Hair Pirates once more, but the alliance fell apart after an attack
+                    from another Emperor, Kaidou, which led to his imprisonment at Wano Country and where he
+                    would eventually reunite with Luffy. Though nominally acting in self-interest towards vengeance
+                    and
+                    glory, Kid's assistance towards the Ninja-Pirate-Mink-Samurai Alliance was instrumental in defeating
+                    Kaidou, Big Mom and the Beasts Pirates.</p><br>
+                <p class="description"> Kid's bounty was eventually raised to 3,000,000,000 Belly for his role in
+                    the Raid on Onigashima.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" src="./src/imgs/kidAbility.png" alt="">
+                <p class="ability-description">The Jiki Jiki no Mi enables the user to generate magnetic fields that
+                    can either attract or repel metallic objects to and from their body as they please. This makes
+                    them particularly effective against the majority of weapons in the world: namely swords, guns,
+                    and cannons. <br><br> By using repulsion, the user can deflect metal projectiles back to where they
+                    came
+                    from, turning them against the aggressor. Using attraction, the user can strip opponents of
+                    their weapons and bring them to their own body, rendering said opponents helpless. The user can
+                    also use attraction to pull themselves to large metal objects like ships, allowing them to
+                    travel through the air in a manner resembling flight.</p>
+            </div>
+        </div>
+
+        <div class="character selected">
+            <img id="supernovaLogo" src="./src/imgs/supernovaLogo.png" alt="">
+            <button id="luffy" class="pageButton"></button>
+            <button id="kid" class="pageButton"></button>
+            <button id="law" class="pageButton"></button>
+            <button id="xdrake" class="pageButton"></button>
+            <button id="bonney" class="pageButton"></button>
+            <button id="apoo" class="pageButton"></button>
+            <button id="zoro" class="pageButton"></button>
+            <button id="urouge" class="pageButton"></button>
+            <button id="hawkins" class="pageButton"></button>
+            <button id="killer" class="pageButton"></button>
+            <button id="bege" class="pageButton"></button>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/law_background_image.jpg" alt="character Trafalgar D. Water Law">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Trafalgar D. Water Law</h2>
+                <p class="description">Trafalgar D. Water Law, is a pirate from North Blue and the captain and doctor of
+                    the
+                    Heart Pirates. He became one of the Seven Warlords of the Sea during the timeskip, but his position
+                    was revoked for allying with the Straw Hat Pirates. Law, like many other pirates, dreams of
+                    finding
+                    the One Piece, while also desiring to know the purpose of the Will of D. Law is the only known
+                    survivor of Flevance, a town whose inhabitants suffered from a condition known as Amber Lead
+                    Syndrome.</p><br>
+
+                <p class="description"> Eventually, his bounty would be raised to 3,000,000,000 Belly for his role in
+                    the Wano Country Arc.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" src="./src/imgs/lawAbility.png" alt="">
+                <p class="ability-description">The Ope Ope no Mi is a Paramecia-type Devil Fruit granting the
+                    ability to create a spherical forcefield in which the user can freely alter the orientation,
+                    movements, and configuration / anatomy of anything and anyone in a "surgical"
+                    fashion, making the user a Free Modification Human. <br><br> The Ope Ope no Mi is renowned and
+                    coveted for allowing the user to perform miraculous surgeries, cure untreatable diseases, and even
+                    circumvent physical disabilities. It is also called the "Ultimate Devil Fruit", because of its
+                    unique power to grant another person eternal youth in
+                    exchange for the user's own life.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/xdrake_background_image.jpg" alt="character X Drake">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">X Drake</h2>
+                <p class="description">"Red Flag" X Drake is the captain of the Marine Secret
+                    Special Unit SWORD. In order to go undercover as a pirate, he publicly defected from his position
+                    as rear admiral and founded the Drake Pirates. Drake is the son of the Marine-turned-pirate Diez
+                    Barrels, and was affiliated with the Barrels Pirates until he defected to the Marines. <br> As a
+                    young
+                    adult, he was called Dory. In Drake's endeavor as an undercover spy, he and his crew became
+                    subordinate to the Beasts Pirates,
+                    led by Kaidou of the Four Emperors, over the two-year timeskip. Drake served as one of the crew's
+                    Shinuchi, specifically one of strongest six called Tobiroppo. His treachery was eventually
+                    uncovered, however, leading him to ally himself with the Ninja-Pirate-Mink-Samurai Alliance.
+                </p><br>
+                <p class="description"> Before the two-year timeskip had a bounty of 222,000,000 Belly.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" src="./src/imgs/xdrakeAbility.png" alt="">
+                <p class="ability-description">The Ryu Ryu no Mi, Model: Allosaurus is an Ancient Zoan-type Devil
+                    Fruit that allows the user to transform into an allosaurus hybrid and a full allosaurus at will.
+                    It was eaten by X Drake. The major strength of this fruit is that it allows the user to
+                    transform into an allosaurus, a large and powerful theropod dinosaur from the prehistoric era,
+                    as a carnivorous Ancient Zoan. <br><br> The fruit grants them features much better suited for close
+                    combat than basic Zoans, such as sharp teeth and claws. As is the case with every other Zoan
+                    ability, the user can also become a human-animal hybrid at will.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/bonney_background_image.webp" alt="character Jewelry Bonney">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Jewelry Bonney</h2>
+                <p class="description">"Jewelry Bonney, also known as the "Big Eater", is one of twelve pirates who
+                    are referred to as the Worst Generation, being the captain of the Bonney Pirates, a pirate crew from
+                    the South Blue. She is the daughter of Bartholomew Kuma. Befitting her epithet, Bonney is an
+                    extremely gluttonous person with very poor table manners. She will, for instance, demand more food
+                    even though she has not finished her current meal. She is usually seen eating pizza, her favorite
+                    food, even when fighting or on the run.
+                </p><br>
+                <p class="description"> She came to Sabaody Archipelago with a bounty of 140,000,000 Belly.
+                    Two years later, it had been raised to 320,000,000 Belly.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/bonneyAbility.jpg" alt="">
+                <p class="ability-description">Bonney ate a currently unnamed Paramecia-type Devil Fruit that allows
+                    her to freely manipulate the aging process of anything, including herself, other people, and
+                    objects. She can use this power to disguise herself, as well as cripple opponents by rapidly
+                    aging her intended targets into their senior years or regressing them into small, weak
+                    children. <br><br> A unique effect of this ability is that the years Bonney steals from people are
+                    manifested in the form of sparkling jewelry and shapes. Any target whose bodily age has been
+                    altered by this power still retains all of their memories and cognitive abilities, as shown by
+                    the Marines and Bonney herself acting the same as normal, regardless of the age their body is
+                    showing them to be.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/apoo_background_image.jpg" alt="character Scratchmen Apoo">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Scratchmen Apoo</h2>
+                <p class="description">Scratchmen Apoo is the captain of the On
+                    Air
+                    Pirates and was formerly an informant for the Beasts Pirates, led by Kaidou of the Four
+                    Emperors.
+                    Apoo is an eccentric, boisterous pirate with an affinity for music and parties. A disc jockey by
+                    nature, Apoo employs dancing and music playing in many of his mannerisms, acting like a
+                    stereotypical radio personality. One reason he appears to enjoy being part of the Beasts Pirates
+                    is because of the "Golden Kagura" celebration they hold annually during every Fire Festival.
+                </p><br>
+                <p class="description"> He came to
+                    Sabaody Archipelago two
+                    years ago with a bounty of over 100,000,000 Belly. Two years later, his bounty increased to
+                    350,000,000 Belly.</p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/apooAbility.png" alt="">
+                <p class="ability-description">The Oto Oto no Mi is a Paramecia-type Devil Fruit which allows
+                    the
+                    user to transform parts of their body into musical instruments and play music with a variety
+                    of
+                    destructive effects. By transforming their body parts into
+                    instruments, such as turning teeth into piano keys or an arm into a trumpet, and playing
+                    specific notes and tunes. <br><br> The user can release music that causes damaging effects to their
+                    opponents, the type of damage being determined by what tune they play. There is a wide range
+                    of
+                    attacks the user can perform, from physical strikes like punches and slashes (which can
+                    dismember victims) to elemental attacks like explosions.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/zoro_background_image.jpg" alt="character Roronoa Zoro">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Roronoa Zoro</h2>
+                <p class="description">Roronoa Zoro, also known as "Pirate Hunter" Zoro, is a main combatant of the
+                    Straw Hat Pirates, one of their two swordsmen, one of the Senior Officers of the Straw Hat Grand
+                    Fleet, and is publicly recognized as the right-hand man of his crew's captain Monkey D. Luffy.
+                    Formerly a bounty hunter, he is the second member of Luffy's crew and the first to join it. His
+                    dream is to become the greatest swordsman in the world.
+                </p>
+                <br>
+                <p class="description">His first bounty was 60,000,000 Belly. It
+                    later
+                    increased to 120,000,000 Belly after the Enies Lobby incident, then again to 320,000,000 Belly
+                    after
+                    the
+                    Dressrosa Arc. Following the Raid on Onigashima, his bounty was increased to 1,111,000,000
+                    Belly.
+                </p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Combat Skills</h2>
+                <img class="ability-power" src="./src/imgs/zoroAbility.jpg" style="object-fit: cover;" alt="">
+                <p class="ability-description">Three Sword Style is Zoro's main style of sword fighting. Unusual for
+                    a human, he wields three swords simultaneously, holding one in each hand and one in his mouth.
+                    Many of Zoro's Three Sword Style attacks use all three of the blades to strike opponents,
+                    cutting them numerous times or cutting multiple opponents at the same time. <br><br> When
+                    performing
+                    flying slashes with Three Sword Style, Zoro can create whirlwind-like attacks that have shown
+                    the ability to catch and strike dozens of opponents at once. He is also able to effectively use
+                    all three of his swords to parry attacks and can even counter attacks performed by multiple
+                    opponents at once.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/urouge_background_image.jpg" alt="character Urouge">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Urouge</h2>
+                <p class="description">Urouge, nicknamed the Mad Monk, was born in an unidentified sky island.
+                    Somehow became a pirate and started the Fallen Monk Pirates, but they eventually ended up in the
+                    Blue Sea, how this happened and why is currently unknown. Urouge would later come to become a
+                    pirate known for his great strength and his crew traveled through the Blue Seas, where their captain
+                    made himself a reputation. <br> On Sabaody Archipelago, Urouge had a brief brawl with Killer of the
+                    Kid
+                    Pirates. Both were stopped by the former-marine-turned-pirate X Drake before either could do
+                    further damage.
+                </p>
+                <br>
+                <p class="description">He is one of twelve pirates referred to as the "Worst Generation", and prior
+                    to the two-year timeskip had a bounty of 108,000,000 Belly.
+                </p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/urougeAbility.jpg" alt="">
+                <p class="ability-description">Urouge ate a currently unnamed Paramecia-type Devil Fruit that
+                    allows
+                    him to convert damage inflicted onto him into physical strength, which results in expanding
+                    muscles and enlarged body size. <br><br> Using this ability, he was able to exceed a Pacifista's
+                    body
+                    size and actually damage it with his punches, although he was still vulnerable to its lasers
+                    and a kick from Admiral Kizaru.</p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/hawkins_background_image.png" alt="character Basil Hawkins">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Basil Hawkins</h2>
+                <p class="description">Basil Hawkins is an infamous pirate from North Blue known as the "Magician"
+                    and
+                    the captain of the Hawkins Pirates. He
+                    almost
+                    always remains completely calm regardless of the situation, showing no emotional response to
+                    events
+                    that would be considered outrageous to most people. Even when approached by a powerful enemy
+                    like a Marine Admiral, Hawkins rarely falters from his usual composure while considering his
+                    options
+                    for the situation at hand.
+                </p>
+                <br>
+
+                <p class="description">His
+                    previous known bounty amounted to 249,000,000 Belly, but after the timeskip, it was raised to
+                    320,000,000 Belly. After encountering Kaidou, he joined the Beasts Pirates and became one of the
+                    crew's Shinuchi.
+                </p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/hawkinsAbility.jfif" alt="">
+                <p class="ability-description">Hawkins ate the Wara Wara no Mi, a Paramecia-type Devil Fruit
+                    that
+                    allows him to create and manipulate straw. He can cover himself in straw-armor, create straw
+                    weapons, and make a large scarecrow-like straw effigy to aid his offense. These creations
+                    also
+                    gain nail-based weapons.
+                    <br><br>By using his straw to create straw voodoo dolls, he is able to transfer any physical damage
+                    inflicted upon him to another person whom the respective doll is connected to, leaving him
+                    unharmed but forcing his victim to take the damage that he would have. However, only so
+                    much
+                    damage can be passed to his victim. While the exact amount is unknown, once enough damage is
+                    dealt, the doll will be shed from his body with the wound visible on it, unable to be used
+                    again.
+                </p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/killer_background_image.jpg" alt="character Killer">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Killer</h2>
+                <p class="description">"Massacre Soldier" Killer is a pirate from the South Blue and a combatant of
+                    the
+                    Kid Pirates. Following the confrontation with Kaidou, Killer ate a defective SMILE and taking on
+                    the
+                    alias of Kamazo the Manslayer, a street murderer in Wano Country who secretly acted as an
+                    assassin
+                    working for the shogun, Kurozumi Orochi, until the shogun discarded him after he had failed his
+                    mission to kill Toko. He later reunites with his crew and becomes an ally member of the
+                    Ninja-Pirate-Mink-Samurai Alliance during the Wano Country Arc.
+                </p>
+                <br>
+                <p class="description">Prior to the timeskip, he obtained a bounty of a 162,000,000 Belly by the
+                    time he
+                    had reached the Sabaody Archipelago. After the timeskip, his bounty has been raised from
+                    162,000,000 Belly to 200,000,000 Belly.
+                </p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Combat Skills</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/killerAbility.png" alt="">
+                <p class="ability-description">Killer's style of fighting seems to rely mainly on his
+                    extraordinary
+                    speed and agility, which he uses to overpower his opponents before they can strike him or
+                    dodge
+                    his attacks. Killer's fighting style tends to be highly acrobatic as a result and he is able
+                    to
+                    slice targets before being noticed or detected. <br><br> During his battle with Zoro, he managed to
+                    put him in constant trouble in terms of speed, and he was even able to steal Napoleon from
+                    Emperor Big Mom's clutches before she could realize it.
+                    Killer possesses immense physical strength, being capable of fighting head on with Urouge, a
+                    man
+                    twice his size. He has incredible levels of physical endurance and stamina, being able to
+                    continue fighting after a lightning strike from Zeus, one of Big Mom's most powerful homies.
+                </p>
+            </div>
+        </div>
+
+        <div class="character">
+            <img class="image" src="./src/imgs/bege_background_image.jpg" alt="character Killer">
+            <div class="content">
+                <i class="logo"></i>
+                <button class="homePageButton"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                    Home Page</button>
+                <h2 class="character-name">Capone Bege</h2>
+                <p class="description">Capone "Gang" Bege is a mafia don-turned-pirate and the captain of the Fire
+                    Tank Pirates. He and his crew came from West Blue, where Bege was one of the heads of the Five
+                    Families of the
+                    West. During the timeskip, he became a subordinate of Charlotte Linlin and married Charlotte
+                    Chiffon. The two have a son named Capone Pez. While working under the Big Mom Pirates, he held a
+                    position of a rook-ranked combatant. Due to his allegiance and actions, he is the secondary
+                    antagonist of the Zou Arc.
+                </p>
+                <br>
+                <p class="description">Sometime during the timeskip, his bounty increased from 138,000,000 Belly to
+                    300,000,000 Belly. After escaping Totto Land, his bounty increase to 350,000,000 Belly.
+                </p>
+            </div>
+            <div class="information">
+                <h2 class="ability-type">Devil Fruit</h2>
+                <img class="ability-power" style="object-fit: cover;" src="./src/imgs/begeAbility.jpg" alt="">
+                <p class="ability-description">Bege ate the Shiro Shiro no Mi, a Paramecia-type Devil Fruit that
+                    effectively makes him a miniature fortress. His body is equipped with cannons and he has a
+                    small
+                    pocket dimension inside his body that resembles the inside of a castle, including furniture.
+                    <br><br>
+                    He can also manifest cannon ports and a drawbridge on his person. Anyone or thing that
+                    enters
+                    his body will be shrunken down and return to normal size once they leave. He can house a
+                    large
+                    number of people within his body, as well as horses, and he can manifest a duplicate of
+                    himself
+                    within the castle. This gives him a massive force of subordinates to call on at all times,
+                    and
+                    he can conduct meetings in private. It also gives him a place to keep prisoners.
+                    Additionally,
+                    Bege can control everything within his castle body.
+                </p>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
